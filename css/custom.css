@@ -1,0 +1,407 @@
+html, body{
+   overflow-x: hidden;
+ }
+
+body {
+  font-family: "Museo Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+  color: #2B2B2B;
+  text-align: left;    
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1 { font-size: 35px; font-weight: 300; line-height: 1.2;  letter-spacing: 0px; font-family: "Museo Sans Rounded";}
+h2 { font-size: 28px; font-weight: 500;line-height: 36.6px; letter-spacing: .5px; font-family: "Museo Sans Rounded"; }
+h3 { font-size: 20px; font-weight: 500; line-height: 29.34px;  letter-spacing: .35px; font-family: "Museo Sans Rounded"; }
+h4 { font-size: 22px; line-height: 28.6px; letter-spacing: .4px; }
+h5 { font-size: 18px; line-height: 1.3;  letter-spacing: .05rem; }
+p { font-size: 18px; font-weight: 100; line-height: 27.6px;  letter-spacing: 0px; }
+
+@media (min-width: 550px) {
+h1 { font-size: 40px;}
+h2 { font-size: 25px;}
+h3 { font-size: 18px;}
+h4 { font-size: 20px;}
+h5 { font-size: 19px;}
+p { font-size: 15px;}
+} 
+
+@media (min-width: 1000px) {
+h1 { font-size: 50px;}
+h2 { font-size: 28px;}
+h3 { font-size: 20px;}
+h4 { font-size: 22px;}
+h5 { font-size: 18px;}   
+p { font-size: 18px;}
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #5191DB; }
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button-primary {
+    display: inline-block;
+    position: relative;
+    margin-top: 13px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #5191DB;
+    height: 40px;
+    font-size: 11px;
+    width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Museo Sans";
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+}
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+li {
+    list-style: none;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+}
+
+/* Nav Bar 
+-------------------------------------------------- */
+.navbar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+}
+
+.navbar-logo img {
+    margin-top: 30px;
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-menu {
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.navbar-item {
+    display: inline;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: none;
+}
+
+  .navbar-link {
+    text-transform: uppercase;
+    font-family: "Museo Sans";
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #222; 
+}
+
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero { 
+  background-image: url(../images/upstay-hero-bg-trans.png); 
+  background-repeat: no-repeat;
+  background-size: cover;   
+  text-align: center;  
+  padding-bottom: 100px;    
+}
+
+.hero-heading {
+    margin-top: 100px;
+}
+
+.hero-subheading {
+    padding: 15px;
+}
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.value-heading {
+   margin-bottom: 40px;
+}
+
+.button.download {
+    margin-top: 40px;
+
+}
+
+.value-description {
+  margin-bottom: .5rem;
+}
+
+.values .phone {
+    margin-top: 20px;
+    padding: 50px;
+    max-width: 100%;
+}
+
+/* Features
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.features {
+  margin-top: -80px;    
+  position: relative;
+  background-color: #EDE9E8;   
+  padding-bottom: 0px;
+    padding-top: 50px
+}
+
+.features-description {
+  margin-bottom: 6.0rem;
+}
+
+.features-icons {
+    margin-bottom: 30px;
+}
+
+.book-icon, .bell-icon, .relax-icon {
+    max-width: 60%;
+}
+
+/* Services
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.services {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;    
+} 
+
+.services-content {
+    padding-bottom: 60px;
+}
+
+.service {
+    margin-top: 40px;
+}
+
+.services-heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dining.services-heading {
+    margin-top: 43px;
+}
+
+.housekeeping.services-heading {
+    margin-top: 32px;
+}
+
+.services-list p {
+    line-height: 20px;
+}
+
+
+/* Vacation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.vacation {   
+  background-image: url('../images/vacation-bg.png');
+  background-repeat: no-repeat;    
+  text-align: center;
+  height: 411px;
+}
+
+.vacation .section-heading {
+  padding-bottom: 40px;
+  padding-top: 20px;    
+}
+
+
+/* Download
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.download-app {
+    background-image: url(../images/download-phone-trans.png);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    max-width: 100%;
+  height: 211px;
+    padding-bottom: 20px;
+}
+
+.download-content {
+    float: right;
+    margin-top: -200px;
+    padding-top: 20px;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+    background-color: #2B2B2B;
+    margin: auto;
+    height: auto;
+    color: #EDE9E8;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.footer-logo {
+    padding-bottom: 15px;
+}
+
+.footer h3 {
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.footer li {
+    margin-bottom: -15px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #EDE9E8;
+}
+    
+.footer-links {
+    padding-bottom: 15px;
+}
+
+/* Only applies to larger than 550 */
+@media (min-width: 550px) {
+    
+.hero {
+    padding-bottom: 200px;
+    background-image: url(../images/upstay-hero-bg.png);
+} 
+    
+.hero-heading {
+    padding-left: 95px;
+    padding-right: 95px;
+}
+    
+.hero-subheading {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+    
+.values {
+    margin-top: -20px;  
+}
+    
+.values .phone {
+    padding-top: 0px;
+    padding-left: 40px;
+}
+    
+.value-desc {
+    padding: 40px;
+}
+    
+.vacation .section-heading {
+    padding-top: 50px;    
+}   
+    
+.download-app {
+    background-image: url(../images/download-phone-trans.png);
+    margin-top: -200px;
+    height: 400px;
+}
+    
+.download-content {
+    margin-top: 50px;
+} 
+}
+    
+/* Only applies to larger than 880
+@media min-width: 800px) {
+    
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+*/
+    
+/* Only applies to larger than 1000 */
+@media (min-width: 1000px) {
+
+.hero-subheading {
+    padding-left: 255px;
+    padding-right: 255px;
+}
+    
+.values .phone {
+    padding: 0px;
+    padding-left: 60px;
+}
+
+
+.book-icon, .bell-icon, .relax-icon {
+    margin-left: 50px;
+}
+    
+    
+.features {
+    margin-top: -150px;    
+    z-index: 1;
+    padding-bottom: 20px;
+}
+  
+    
+.services-content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+   
+.download-app {
+    background-image: url(../images/download-phone.png);
+    margin-top: -200px;
+    height: 400px;
+}
+
+.download-content {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-menu {
+    display: inline;
+    text-align: right;
+}
+    
+.navbar-logo img {
+    padding-left: 0px;
+}
+    
+.navbar-item {
+    padding-right: 25px;
+    padding-left: 25px;
+}  
+    
+.navbar-link {
+    font-size: 13px;
+}   
+}
