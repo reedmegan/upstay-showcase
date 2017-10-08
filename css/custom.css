@@ -83,7 +83,7 @@ li {
 /* Nav Bar 
 -------------------------------------------------- */
 .navbar {
-    position: fixed;
+    position: relative;
     width: 100%;
     text-align: center;
     z-index: 99;
