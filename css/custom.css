@@ -42,7 +42,7 @@ p { font-size: 18px;}
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #EDE9E8; }
 a:hover {
   color: #5191DB; }
 
@@ -84,21 +84,22 @@ li {
 -------------------------------------------------- */
 .navbar {
     position: relative;
+    background-color: none;
     width: 100%;
     text-align: center;
     z-index: 99;
 }
 
 .navbar-logo img {
-    margin-top: 30px;
+    margin-top: 33px;
     display: inline;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align: center;
 }
 
 .navbar-menu {
     margin-top: 30px;
     padding: 5px;
+    display: none;
 }
 
 .navbar-item {
@@ -115,7 +116,7 @@ li {
     font-weight: 500;
     letter-spacing: 2px;
     text-decoration: none;
-    color: #222; 
+    color: #2B2B2B; 
 }
 
 
@@ -126,15 +127,17 @@ li {
   background-repeat: no-repeat;
   background-size: cover;   
   text-align: center;  
-  padding-bottom: 100px;    
+  height: 100%;
+  padding-bottom: 100px;
+  margin-top: -150px;
 }
 
 .hero-heading {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .hero-subheading {
-    padding: 15px;
+    padding: 20px;
 }
 
 
@@ -287,20 +290,25 @@ li {
 
 /* Only applies to larger than 550 */
 @media (min-width: 550px) {
+.navbar-menu {   
+    display: inline;
+    padding-left: 50px;
+}
+
+.navbar-item {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
     
 .hero {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     background-image: url(../images/upstay-hero-bg.png);
 } 
     
-.hero-heading {
-    padding-left: 95px;
-    padding-right: 95px;
-}
-    
 .hero-subheading {
-    padding-left: 115px;
-    padding-right: 115px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
     
 .values {
@@ -383,17 +391,13 @@ li {
     margin-top: 50px;
 }
 
-.navbar {
-    background-color: transparent;
-}
-
 .navbar-menu {
     display: inline;
     text-align: right;
 }
     
 .navbar-logo img {
-    padding-left: 0px;
+    margin-left: -200px;
 }
     
 .navbar-item {
