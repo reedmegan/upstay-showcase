@@ -144,6 +144,7 @@ li {
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .value-heading {
+   margin-top: 0px;    
    margin-bottom: 40px;
 }
 
@@ -157,9 +158,9 @@ li {
 }
 
 .values .phone {
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 50px;
-    max-width: 100%;
+    width: 70%;
 }
 
 /* Features
@@ -315,14 +316,20 @@ li {
     margin-top: -20px;  
 }
     
+.value-heading {
+    margin-top: 70px;  
+}
+    
 .values .phone {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-left: 40px;
+    margin-bottom: 50px;
+    width: 100%;
 }
     
 .value-desc {
-    padding: 40px;
-}
+    padding: 0px;
+}   
     
 .vacation .section-heading {
     padding-top: 50px;    
@@ -337,6 +344,14 @@ li {
 .download-content {
     margin-top: 50px;
 } 
+}
+
+/* Only applies to larger than 860 */
+@media (min-width: 860px) {
+    .features {
+        margin-top: -100px;
+    }
+    
 }
     
 /* Only applies to larger than 880
@@ -356,10 +371,20 @@ li {
     padding-left: 255px;
     padding-right: 255px;
 }
+
+.value-heading {
+    margin-top: 70px;  
+}
+    
+.values .phone {
+    padding-top: 0px;
+    padding-left: 40px;
+}    
     
 .values .phone {
     padding: 0px;
     padding-left: 60px;
+    max-width: 271px;
 }
 
 
@@ -369,8 +394,7 @@ li {
     
     
 .features {
-    margin-top: -150px;    
-    z-index: 1;
+    margin-top: -180px;    
     padding-bottom: 20px;
 }
   
