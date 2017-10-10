@@ -77,7 +77,7 @@ li {
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 8rem 0 7rem;
+    padding: 8rem 0 7rem;
 }
 
 /* Nav Bar 
@@ -123,13 +123,13 @@ li {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero { 
-  background-image: url(../images/upstay-hero-bg-trans.png); 
-  background-repeat: no-repeat;
-  background-size: cover;   
-  text-align: center;  
-  height: 100%;
-  padding-bottom: 100px;
-  margin-top: -150px;
+    background-image: url(../images/upstay-hero-bg-trans.png); 
+    background-repeat: no-repeat;
+    background-size: cover;   
+    text-align: center;  
+    height: 100%;
+    padding-bottom: 100px;
+    margin-top: -150px;
 }
 
 .hero-heading {
@@ -162,10 +162,10 @@ li {
 /* Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .features {
-  margin-top: -80px;    
-  position: relative;
-  background-color: #EDE9E8;   
-  padding-bottom: 0px;
+    margin-top: -80px;    
+    position: relative;
+    background-color: #EDE9E8;   
+    padding-bottom: 0px;
     padding-top: 50px
 }
 
@@ -178,7 +178,7 @@ li {
 }
 
 .book-icon, .bell-icon, .relax-icon {
-    max-width: 60%;
+    max-width: 20%;
 }
 
 /* Services
@@ -199,7 +199,6 @@ li {
 
 .services-heading {
     margin-top: 20px;
-
 }
 
 .dining.services-heading {
@@ -237,13 +236,13 @@ li {
     background-repeat: no-repeat;    
     background-size: cover;
     max-width: 100%;
-  height: 211px;
+    height: 211px;
     padding-bottom: 20px;
 }
 
 .download-content {
     float: right;
-    margin-top: -200px;
+    margin-top: -140px;
     padding-top: 20px;
 }
 
@@ -326,29 +325,33 @@ li {
     padding: 0px;
 }   
     
-    .service {
-        display: block;
-    }
+.book-icon, .bell-icon, .relax-icon {
+    max-width: 60%;
+}
     
-        .housekeeping-icon {
-        margin-top: -10px;
-    }
+.service {
+    display: block;
+}
     
-    .services-list p {
+.housekeeping-icon {
+    margin-top: -10px;
+}
+    
+.services-list p {
     line-height: 20px;
 }
     
-    .services-heading {
-        line-height: 20px;
-        padding-bottom: 20px;    
-    }
+.services-heading {
+    line-height: 20px;
+    padding-bottom: 20px;    
+}
     
-        .dining.services-heading {
-        line-height: 20px;
-        padding-bottom: 5px;    
-    }
+.dining.services-heading {
+    line-height: 20px;
+    padding-bottom: 5px;    
+}
     
-    .housekeeping.services-heading {
+.housekeeping.services-heading {
     margin-top: 13px;
 }
     
@@ -369,23 +372,17 @@ li {
 
 /* Only applies to larger than 860 */
 @media (min-width: 860px) {
-    .features {
-        margin-top: -100px;
-    } 
+.features {
+    margin-top: -100px;
+} 
     
-            .dining.services-heading {
-
-        padding-bottom: 20px;    
-    }
+.dining.services-heading {
+    padding-bottom: 20px;    
+}
 }
     
 /* Only applies to larger than 880
 @media min-width: 800px) {
-    
-  .section-description {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
   }
 */
     
@@ -428,32 +425,34 @@ li {
     padding-left: 150px;
     padding-right: 150px;
 }
-    .housekeeping-icon {
-        margin-top: -10px;
-    }
+
+.housekeeping-icon {
+    margin-top: -10px;
+}
     
-    .services-list p {
+.services-list p {
     line-height: 20px;
 }
     
-    .housekeeping.services-heading {
+.housekeeping.services-heading {
     padding-top: 15px;
-    }
+}
 
-        .concierge.services-heading {
+.concierge.services-heading {
     padding-top: 5px;
 }
     
-            .front-desk.services-heading {
+.front-desk.services-heading {
     padding-top: 12px;
 }
-            .dining.services-heading {
+
+.dining.services-heading {
     padding-top: 19px;
 }
     
-    .vacation-heading {
-        margin-top: 50px;
-    }
+.vacation-heading {
+    margin-top: 50px;
+}
    
 .download-app {
     background-image: url(../images/download-phone.png);
