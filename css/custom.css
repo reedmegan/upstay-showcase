@@ -14,10 +14,10 @@ img {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1 { font-size: 35px; font-weight: 300; line-height: 1.2;  letter-spacing: 0px; font-family: "muli", sans-serif;}
+h1 { font-size: 35px; font-weight: 600; line-height: 1.2;  letter-spacing: 0px; font-family: "muli", sans-serif;}
 h2 { font-size: 28px; font-weight: 600;line-height: 36.6px; letter-spacing: .5px; font-family: "muli", sans-serif; }
 h3 { font-size: 20px; font-weight: 600; line-height: 29.34px;  letter-spacing: .35px; font-family: "muli", sans-serif; }
-h4 { font-size: 21px; font-weight: 300; line-height: 28.6px; letter-spacing: .4px; }
+h4 { font-size: 21px; font-weight: 400; line-height: 28.6px; letter-spacing: .4px; }
 h5 { font-size: 18px; line-height: 1.3;  letter-spacing: .05rem; }
 p { font-size: 20px; font-weight: 200; line-height: 27.6px;  letter-spacing: 0px; }
 
@@ -117,6 +117,17 @@ li {
     letter-spacing: 2px;
     text-decoration: none;
     color: #2B2B2B; 
+}
+
+.apple-download {
+    max-width: 35%;
+    padding: 3px;
+}
+
+
+.android-download {
+    max-width: 35%;
+    padding: 3px;
 }
 
 
@@ -236,13 +247,13 @@ li {
     background-repeat: no-repeat;    
     background-size: cover;
     max-width: 100%;
-    height: 211px;
+    height: 120px;
     padding-bottom: 20px;
 }
 
 .download-content {
     float: right;
-    margin-top: -140px;
+    margin-top: -180px;
     padding-top: 20px;
 }
 
@@ -254,7 +265,7 @@ li {
     height: auto;
     color: #EDE9E8;
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .footer-logo {
@@ -361,12 +372,15 @@ li {
     
 .download-app {
     background-image: url(../images/download-phone-trans.png);
-    margin-top: -200px;
-    height: 400px;
+    margin-top: -230px;
+    height: 250px;
 }
     
 .download-content {
-    margin-top: 50px;
+    margin-top: 0px;
+    float: right;
+    padding-top: 20px;
+    padding-left: 0px;
 } 
 }
 
@@ -461,7 +475,7 @@ li {
 }
 
 .download-content {
-    padding-left: 100px;
+    padding-left: 500px;
     margin-top: 50px;
 }
 
